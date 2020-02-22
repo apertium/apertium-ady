@@ -4,10 +4,18 @@ Multichar_Symbols
 
 ! Part of speech categories
 %<n%>   ! Noun
+%<v%>
+
+
+%<tv%>
+%<iv%>
 
 ! Number morphology
 %<pl%>  ! Plural
 %<sg%>  ! Singular
+
+%<erg%> 
+%<abs%>
 
 ! Other symbols
 %>      ! Morpheme boundary
@@ -20,7 +28,7 @@ Multichar_Symbols
 LEXICON Root
 
 Nouns ;
-
+Verbs ; 
 
 LEXICON N-кӏалэ 
 
@@ -30,7 +38,15 @@ LEXICON N-кӏалэ
 LEXICON N-дэпкъы
 
 %<n%>%<abs%>:%>р # ; 
-%<n%>%<obl%>:%>м # ; 
+%<n%>%<erg%>:%>м # ; 
+
+LEXICON TENSE
+
+%<past%>:%>ыгъ # ; 
+
+LEXICON V-TV 
+
+%<v%>%<tv%>: TENSE ; 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                          L E X I C O N                                  !!!
@@ -40,4 +56,8 @@ LEXICON Nouns
 
 кӏалэ:кӏалэ N-кӏалэ ; ! "мальчик"
 дэпкъы:дэпкъы N-дэпкъы ; ! ""
+еджапӏэ:еджапӏэ N-дэпкъы ; ! "школа"
 
+LEXICON Verbs 
+
+тхы:тхы V-TV ; ! "писать"
