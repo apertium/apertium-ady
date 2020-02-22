@@ -27,8 +27,16 @@ Multichar_Symbols
 
 LEXICON Root
 
+Pronouns ;
 Nouns ;
 Verbs ; 
+
+! Prefixes ; 
+
+! LEXICON Prefixes 
+! 
+! Proprietary ;
+! Organic ; 
 
 LEXICON CASE-ERG
 
@@ -49,6 +57,30 @@ LEXICON N-дэпкъы
 %<n%>%<ind%>%<ins%>:%>кӏэ    # ; 
 %<n%>%<ind%>%<adv%>:%>эу     # ; 
 
+LEXICON PRON-CASE
+
+%<abs%>:         # ; 
+%<erg%>:         # ; 
+%<ins%>:р%>кӏэ   # ;
+%<adv%>:р%>эу    # ; 
+
+LEXICON PRON-SG1
+
+%<prn%>%<pers%>%<p1%>%<sg%>: PRON-CASE  ; 
+
+LEXICON PRON-SG2
+
+%<prn%>%<pers%>%<p2%>%<sg%>: PRON-CASE  ; 
+
+LEXICON PRON-PL1
+
+%<prn%>%<pers%>%<p1%>%<pl%>: PRON-CASE  ; 
+
+LEXICON PRON-PL2
+
+%<prn%>%<pers%>%<p2%>%<pl%>: PRON-CASE  ; 
+
+
 LEXICON TENSE
 
 %<past%>:%>ыгъ # ; 
@@ -60,6 +92,13 @@ LEXICON V-TV
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                          L E X I C O N                                  !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Pronouns 
+
+сэ:сэ     PRON-SG1 ; ! "я"
+о:о       PRON-SG2 ; ! "ты"
+тэ:тэ     PRON-PL1 ; ! "мы"
+шъо:шъо   PRON-PL2 ; ! "вы"
 
 LEXICON Nouns
 
