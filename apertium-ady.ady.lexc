@@ -41,12 +41,25 @@ Pronouns ;
 Nouns ;
 Verbs ; 
 
-! Prefixes ; 
+Prefixes ; 
 
-! LEXICON Prefixes 
+LEXICON Prefixes 
 ! 
 ! Proprietary ;
 ! Organic ; 
+
+! Subject ;
+
+AGR ; 
+
+LEXICON AGR
+
+:сэ Verbs ; 
+:о Verbs ; 
+:ма Verbs ; 
+:тэ Verbs ; 
+:шъо Verbs ; 
+:ма Verbs ; 
 
 LEXICON CASE-ERG
 
@@ -108,7 +121,24 @@ LEXICON PRON-POSS
 
 LEXICON TENSE
 
-%<past%>:%>ыгъ # ; 
+!Present 	~∅ 	макӏо /maːkʷʼa/ 	(s)he is going; (s)he goes
+!Preterite 	~агъэ /~aːʁa/ 	кӏуагъэ /kʷʼaːʁa/ 	(s)he went
+!Discontinuous past 	~гъагъ /~ʁaːʁ/ 	кӏогъагъ /kʷʼaʁaːʁ/ 	(s)he went (but not there anymore)
+!Pluperfect 	~гъагъ /~ʁaːʁ/ 	кӏогъагъ /kʷʼaʁaːʁ/ 	(s)he went a long time ago"; (s)he had gone"
+!Categorical Future 	~н /~n/ 	кӏон /kʷʼan/ 	(s)he will go
+!Factual Future 	~щт /~ɕt/ 	кӏощт /kʷʼaɕt/ 	(s)he will go, (s)he is about to go
+!Past continuous 	~щтыгъ 	кӏощтыгъ /kʷʼaɕtəʁ/ 	(s)he used to go; (s)he was going
+!Conditional perfect 	~щтыгъ 	кӏощтыгъ /kʷʼaɕtəʁ/ 	(s)he was going to go; (s)he would have gone
+!Future perfect 	~гъэщт /~ʁaɕt/ 	кӏуагъэщт /kʷʼaːʁaɕt/ 	(s)he will have gone
+!Recent past 	~гъакӏ /~ʁaːt͡ʃʼ/ 	кӏогъакӏ /kʷʼaʁaːt͡ʃʼ/ 	(s)he just (recently) went
+!Present Perfect 	~гъах /~ʁaːχ/ 	кӏогъах /kʷʼaʁaːx/ 	(s)he already went 
+
+%<past%>:%>ыгъ               # ; 
+%<pres%>:                    # ; 
+
+LEXICON V-IV
+
+%<v%>%<iv%>: TENSE ; 
 
 LEXICON V-TV 
 
@@ -148,4 +178,16 @@ LEXICON Nouns
 
 LEXICON Verbs 
 
-тхы:тхы V-TV ; ! "писать"
+! I am forcing you to talk to them again
+! у-а-къы-дэ-сэ-гъэ-гущыӏэ-жьы
+! you (у) with them (а) from there (къы) together (дэ) I (сэ) am forcing (гъэ) to speak (гущыӏэн) again (жьы)
+! obj adv adv coop subj deriv root 
+! -6  -5  -4  -3   -2   -1     0    +1
+
+тхы:тхы                 V-TV ; ! "писать"
+гущыӏэ:гущыӏэ           V-TV ; ! ""
+кӏо:кӏо                 V-IV ; ! "идти"
+
+
+
+
