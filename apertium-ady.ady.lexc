@@ -5,10 +5,16 @@ Multichar_Symbols
 ! Part of speech categories
 %<n%>   ! Noun
 %<v%>
-
+%<prn%>
 
 %<tv%>
 %<iv%>
+
+%<pers%>
+
+%<p1%>
+%<p2%>
+%<p3%>
 
 ! Number morphology
 %<pl%>  ! Plural
@@ -16,6 +22,8 @@ Multichar_Symbols
 
 %<erg%> 
 %<abs%>
+%<ins%>
+%<adv%>
 
 ! Other symbols
 %>      ! Morpheme boundary
