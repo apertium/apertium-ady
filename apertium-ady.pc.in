@@ -1,0 +1,8 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+srcdir=@datarootdir@/apertium/apertium-ady
+
+Name: apertium-ady
+Description: Finite-state morphological transducer and constraint grammar for Adyghe 
+Version: @VERSION@
+
