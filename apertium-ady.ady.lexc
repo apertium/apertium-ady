@@ -11,6 +11,8 @@ Multichar_Symbols
 %<iv%>
 
 %<pers%>
+%<dem%>
+%<pos%>
 
 %<p1%>
 %<p2%>
@@ -72,6 +74,13 @@ LEXICON PRON-CASE
 %<ins%>:р%>кӏэ   # ;
 %<adv%>:р%>эу    # ; 
 
+LEXICON PRON-DEM-CASE 
+
+%<abs%>:%>р         # ; 
+%<erg%>:%>щ         # ; 
+%<ins%>:%>щ%>кӏэ   # ;
+%<adv%>:р%>эу    # ; 
+
 LEXICON PRON-SG1
 
 %<prn%>%<pers%>%<p1%>%<sg%>: PRON-CASE  ; 
@@ -88,6 +97,14 @@ LEXICON PRON-PL2
 
 %<prn%>%<pers%>%<p2%>%<pl%>: PRON-CASE  ; 
 
+LEXICON PRON-DEM
+
+%<prn%>%<dem%>:              PRON-DEM-CASE ; 
+%<prn%>%<dem%>%<pl%>:%>хэ    PRON-DEM-CASE ; 
+
+LEXICON PRON-POSS
+
+%<prn%>%<pos%>: # ; 
 
 LEXICON TENSE
 
@@ -103,10 +120,22 @@ LEXICON V-TV
 
 LEXICON Pronouns 
 
-сэ:сэ     PRON-SG1 ; ! "я"
-о:о       PRON-SG2 ; ! "ты"
-тэ:тэ     PRON-PL1 ; ! "мы"
-шъо:шъо   PRON-PL2 ; ! "вы"
+сэ:сэ             PRON-SG1 ; ! "я"
+о:о               PRON-SG2 ; ! "ты"
+тэ:тэ             PRON-PL1 ; ! "мы"
+шъо:шъо           PRON-PL2 ; ! "вы"
+
+мы:мы             PRON-DEM ; ! ""
+мо:мо             PRON-DEM ; ! ""
+а:а               PRON-DEM ; ! ""
+
+сэсый:сэсый       PRON-POSS ; ! ""
+оуий:оуий         PRON-POSS ; ! ""
+ий:ий             PRON-POSS ; ! ""
+тэтый:тэтый       PRON-POSS ; ! ""
+шъошъуй:шъошъуй   PRON-POSS ; ! ""
+яй:яй             PRON-POSS ; ! ""
+
 
 LEXICON Nouns
 
