@@ -14,10 +14,10 @@ TARGETS_COMMON =			\
 	$(LANG1).autogen.hfst		\
 	$(LANG1).autogen.bin		\
 	$(LANG1).autogen.att.gz		\
-	$(LANG1).autopgen.bin		\
-	$(LANG1).prob                   \
 	$(LANG1).rlx.bin
 
+#	$(LANG1).prob                   
+#	$(LANG1).autopgen.bin		
 # This include defines goals for install-modes, .deps/.d, autobil.prefixes and .mode files:
 @ap_include@
 

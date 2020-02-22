@@ -19,10 +19,36 @@ Multichar_Symbols
 
 LEXICON Root
 
-NounRoot ;
+Nouns ;
 
 
-LEXICON RegNounInfl
+LEXICON N-кӏалэ 
+
+%<n%>%<abs%>:%>р # ; 
+%<n%>%<erg%>:%>м # ; 
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!                          L E X I C O N                                  !!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Nouns
+
+кӏалэ:кӏалэ N ; ! "мальчик"
+
+
+
+! Resources:
+! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Lexicon
+! http://wiki.apertium.org/wiki/Lttoolbox_and_lexc
+! http://wiki.apertium.org/wiki/Apertium-specific_conventions_for_lexc
+! https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstHome
+! https://github.com/hfst/
+! http://www.cis.upenn.edu/~cis639/docs/lexc.html
+! http://wiki.apertium.org/wiki/Hfst
+
+
+LEXICON N1
 
 %<n%>%<sg%>: # ;
 %<n%>%<pl%>:%>s # ;
@@ -34,7 +60,7 @@ LEXICON RegNounInfl
 
 LEXICON NounRoot
 
-house:house RegNounInfl ; ! A noun
+гущыӏ:гущыӏ N ; ! A noun
 
 
 
