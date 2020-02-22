@@ -30,15 +30,22 @@ LEXICON Root
 Nouns ;
 Verbs ; 
 
+LEXICON CASE-ERG
+
+%<erg%>:                     #  ;
+%<ins%>:%>кӏэ                # ;
+
 LEXICON N-кӏалэ 
 
-%<n%>%<abs%>:%>р # ; 
-%<n%>%<erg%>:%>м # ; 
+%<n%>%<def%>%<abs%>:%>р      # ; 
+%<n%>%<def%>:%>м             CASE-ERG ; 
+%<n%>%<ind%>%<ins%>:%>кӏэ    # ; 
 
 LEXICON N-дэпкъы
 
-%<n%>%<abs%>:%>р # ; 
-%<n%>%<erg%>:%>м # ; 
+%<n%>%<def%>%<abs%>:%>р      # ; 
+%<n%>%<def%>:%>м             CASE-ERG ; 
+%<n%>%<ind%>%<ins%>:%>кӏэ    # ; 
 
 LEXICON TENSE
 
