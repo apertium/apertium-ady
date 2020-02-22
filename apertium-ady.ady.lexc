@@ -39,6 +39,7 @@ LEXICON Root
 
 Pronouns ;
 Nouns ;
+Adjectives ;
 Verbs ; 
 
 Prefixes ; 
@@ -50,35 +51,52 @@ LEXICON Prefixes
 
 ! Subject ;
 
-AGR ; 
+Subject ; 
 
-LEXICON AGR
+LEXICON Subject
 
-:сэ Verbs ; 
-:о Verbs ; 
-:ма Verbs ; 
-:тэ Verbs ; 
-:шъо Verbs ; 
-:ма Verbs ; 
+:сэ Valency ; 
+:о Valency ; 
+:ма Valency ; 
+:тэ Valency ; 
+:шъо Valency ; 
+:ма Valency ; 
+
+LEXICON Valency
+
+! Causative 	гъэ~ [ʁa~] 	"to force, to make" 	гъэ-плъэн [ʁapɬan] ! "to make him look at"
+! Comitative 	дэ~ [da~] 	"with" 	д-еплъын [dajpɬən] ! "to look with"
+! Benefactive 	фэ~ [fa~] 	"for" 	ф-еплъын [fajpɬən] ! "to look for"
+! Malefactive 	шӏо~ [ʃʷʼa~] 	"against one's interest" 	шӏу-еплъын [ʃʷʼajpɬən] ! "to look against his interest"
+! Reflexive 	зэ~ [za~] 	"self" 	зэ-плъын [zapɬən] ! "to look at oneself" 
+
+%<caus%>:%>гъэ Verbs ; 
+%<coop%>:%>дэ Verbs ; 
+%<bene%>:%>фэ Verbs ; 
+%<male%>:%>шӏо Verbs ; 
+%<refl%>:%>зэ Verbs ; 
 
 LEXICON CASE-ERG
 
 %<erg%>:                     #  ;
 %<ins%>:%>кӏэ                # ;
 
+LEXICON CASES 
+
+
+%<def%>%<abs%>:%>р      # ; 
+%<def%>:%>м             CASE-ERG ; 
+%<ind%>%<ins%>:%>кӏэ    # ; 
+%<ind%>%<adv%>:%>эу     # ; 
+
+
 LEXICON N-кӏалэ 
 
-%<n%>%<def%>%<abs%>:%>р      # ; 
-%<n%>%<def%>:%>м             CASE-ERG ; 
-%<n%>%<ind%>%<ins%>:%>кӏэ    # ; 
-%<n%>%<ind%>%<adv%>:%>эу     # ; 
+%<n%>: CASES ; 
 
 LEXICON N-дэпкъы
 
-%<n%>%<def%>%<abs%>:%>р      # ; 
-%<n%>%<def%>:%>м             CASE-ERG ; 
-%<n%>%<ind%>%<ins%>:%>кӏэ    # ; 
-%<n%>%<ind%>%<adv%>:%>эу     # ; 
+%<n%>: CASES ; 
 
 LEXICON PRON-CASE
 
@@ -93,6 +111,10 @@ LEXICON PRON-DEM-CASE
 %<erg%>:%>щ         # ; 
 %<ins%>:%>щ%>кӏэ   # ;
 %<adv%>:р%>эу    # ; 
+
+LEXICON A
+
+%<adj%>: # ; 
 
 LEXICON PRON-SG1
 
@@ -136,13 +158,19 @@ LEXICON TENSE
 %<past%>:%>ыгъ               # ; 
 %<pres%>:                    # ; 
 
+LEXICON NONFIN
+
+%<ger%>:%>н CASES ;
+
 LEXICON V-IV
 
 %<v%>%<iv%>: TENSE ; 
+%<v%>%<iv%>: NONFIN ; 
 
 LEXICON V-TV 
 
 %<v%>%<tv%>: TENSE ; 
+%<v%>%<tv%>: NONFIN ; 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                          L E X I C O N                                  !!!
@@ -175,6 +203,10 @@ LEXICON Nouns
 профессор:профессор N-кӏалэ ; ! ""
 щысыгъэ:щысыгъэ N-кӏалэ ; ! ""
 тхьэматэ:тхьэматэ N-кӏалэ ; ! ""
+
+LEXICON Adjectives 
+
+дах:дах A ; ! "красивый"
 
 LEXICON Verbs 
 
