@@ -56,24 +56,24 @@ Subject ;
 LEXICON Subject
 
 :сэ Valency ; 
-:о Valency ; 
-:ма Valency ; 
-:тэ Valency ; 
-:шъо Valency ; 
-:ма Valency ; 
+:уэ Valency ; 
+:мы Valency ; 
+:дэ Valency ; 
+:фэ Valency ; 
+:мо Valency ; 
 
 LEXICON Valency
 
-! Causative 	гъэ~ [ʁa~] 	"to force, to make" 	гъэ-плъэн [ʁapɬan] ! "to make him look at"
-! Comitative 	дэ~ [da~] 	"with" 	д-еплъын [dajpɬən] ! "to look with"
-! Benefactive 	фэ~ [fa~] 	"for" 	ф-еплъын [fajpɬən] ! "to look for"
-! Malefactive 	шӏо~ [ʃʷʼa~] 	"against one's interest" 	шӏу-еплъын [ʃʷʼajpɬən] ! "to look against his interest"
-! Reflexive 	зэ~ [za~] 	"self" 	зэ-плъын [zapɬən] ! "to look at oneself" 
+! Causative     гъэ~ [ʁa~]      "to force, to make"     гъэ-плъэн [ʁapɬan] ! "to make him look at"
+! Comitative    дэ~ [da~]       "with"  д-еплъын [dajpɬən] ! "to look with him/her/it"
+! Benefactive   ху~ [xʷ~]       "for"   ху-еплъын [fajpɬən] ! "to look for him/her/it"
+! Malefactive   фӏэ~ [fʼa~]     "against one's interest"        фӏ-еплъын [fʼapɬən] ! "to look against his/her/its interest"
+! Reflexive     зэ~ [za~]       "self"  зэ-плъын [zapɬən] ! "to look at oneself"
 
 %<caus%>:%>гъэ Verbs ; 
 %<coop%>:%>дэ Verbs ; 
-%<bene%>:%>фэ Verbs ; 
-%<male%>:%>шӏо Verbs ; 
+%<bene%>:%>ху Verbs ; 
+%<male%>:%>фӏэ Verbs ; 
 %<refl%>:%>зэ Verbs ; 
 
 LEXICON CASE-ERG
@@ -143,17 +143,24 @@ LEXICON PRON-POSS
 
 LEXICON TENSE
 
-!Present 	~∅ 	макӏо /maːkʷʼa/ 	(s)he is going; (s)he goes
-!Preterite 	~агъэ /~aːʁa/ 	кӏуагъэ /kʷʼaːʁa/ 	(s)he went
-!Discontinuous past 	~гъагъ /~ʁaːʁ/ 	кӏогъагъ /kʷʼaʁaːʁ/ 	(s)he went (but not there anymore)
-!Pluperfect 	~гъагъ /~ʁaːʁ/ 	кӏогъагъ /kʷʼaʁaːʁ/ 	(s)he went a long time ago"; (s)he had gone"
-!Categorical Future 	~н /~n/ 	кӏон /kʷʼan/ 	(s)he will go
-!Factual Future 	~щт /~ɕt/ 	кӏощт /kʷʼaɕt/ 	(s)he will go, (s)he is about to go
-!Past continuous 	~щтыгъ 	кӏощтыгъ /kʷʼaɕtəʁ/ 	(s)he used to go; (s)he was going
-!Conditional perfect 	~щтыгъ 	кӏощтыгъ /kʷʼaɕtəʁ/ 	(s)he was going to go; (s)he would have gone
-!Future perfect 	~гъэщт /~ʁaɕt/ 	кӏуагъэщт /kʷʼaːʁaɕt/ 	(s)he will have gone
-!Recent past 	~гъакӏ /~ʁaːt͡ʃʼ/ 	кӏогъакӏ /kʷʼaʁaːt͡ʃʼ/ 	(s)he just (recently) went
-!Present Perfect 	~гъах /~ʁaːχ/ 	кӏогъах /kʷʼaʁaːx/ 	(s)he already went 
+!Present        ~∅      макӏо /maːkʷʼa/         (s)he is going; (s)he goes
+!Preterite      ~агъэ /~aːʁa/   кӏуагъэ /kʷʼaːʁa/       (s)he went
+!Discontinuous past     ~гъагъ /~ʁaːʁ/  кӏогъагъ /kʷʼaʁaːʁ/     (s)he went (but not there anymore)
+!Pluperfect     ~гъагъ /~ʁaːʁ/  кӏогъагъ /kʷʼaʁaːʁ/     (s)he went a long time ago"; (s)he had gone"
+!Categorical Future     ~н /~n/         кӏон /kʷʼan/    (s)he will go
+!Factual Future         ~щт /~ɕt/       кӏощт /kʷʼaɕt/  (s)he will go, (s)he is about to go
+!Past continuous        ~щтыгъ  кӏощтыгъ /kʷʼaɕtəʁ/     (s)he used to go; (s)he was going
+!Conditional perfect    ~щтыгъ  кӏощтыгъ /kʷʼaɕtəʁ/     (s)he was going to go; (s)he would have gone
+!Future perfect         ~гъэщт /~ʁaɕt/  кӏуагъэщт /kʷʼaːʁaɕt/   (s)he will have gone
+!Recent past    ~гъакӏ /~ʁaːt͡ʃʼ/        кӏогъакӏ /kʷʼaʁaːt͡ʃʼ/   (s)he just (recently) went
+!Present Perfect        ~гъах /~ʁaːχ/   кӏогъах /kʷʼaʁaːx/      (s)he already went
+
+!Present 	~∅ 	макӏуэ /maːkʷʼa/ 	(s)he is going; (s)he goes
+!Preterite 	~щ /~ɕ/ 	кӏуащ /kʷʼaːɕ/ 	(s)he went
+!Discontinuous past 	~т /t~/ 	кӏуат /kʷʼat/ 	(s)he went (but not there anymore)
+!Pluperfect 	~гъат /~ʁaːt/ 	кӏуэгъат /kʷʼaʁaːt/ 	(s)he went a long time ago"; (s)he had gone"
+!Categorical Future 	~нщ /~nɕ/ 	кӏуэнщ /kʷʼanɕ/ 	(s)he will go
+!Factual Future 	~нущ /~nwɕ/ 	кӏуэнущ /kʷʼanwɕ/ 	(s)he will go, (s)he is about to go
 
 %<past%>:%>ыгъ               # ; 
 %<pres%>:                    # ; 
@@ -179,34 +186,34 @@ LEXICON V-TV
 LEXICON Pronouns 
 
 сэ:сэ             PRON-SG1 ; ! "я"
-о:о               PRON-SG2 ; ! "ты"
-тэ:тэ             PRON-PL1 ; ! "мы"
-шъо:шъо           PRON-PL2 ; ! "вы"
+уэ:уэ               PRON-SG2 ; ! "ты"
+дэ:дэ             PRON-PL1 ; ! "мы"
+фэ:фэ           PRON-PL2 ; ! "вы"
 
 мы:мы             PRON-DEM ; ! ""
 мо:мо             PRON-DEM ; ! ""
 а:а               PRON-DEM ; ! ""
 
-сэсый:сэсый       PRON-POSS ; ! ""
-оуий:оуий         PRON-POSS ; ! ""
-ий:ий             PRON-POSS ; ! ""
-тэтый:тэтый       PRON-POSS ; ! ""
-шъошъуй:шъошъуй   PRON-POSS ; ! ""
+сэсей:сэсей       PRON-POSS ; ! ""
+ууей:ууей         PRON-POSS ; ! ""
+ей:ей             PRON-POSS ; ! ""
+дэдей:дэдей       PRON-POSS ; ! ""
+фыфей:фыфей   PRON-POSS ; ! ""
 яй:яй             PRON-POSS ; ! ""
 
 
 LEXICON Nouns
 
-кӏалэ:кӏалэ N-кӏалэ ; ! "мальчик"
-дэпкъы:дэпкъы N-дэпкъы ; ! ""
-еджапӏэ:еджапӏэ N-дэпкъы ; ! "школа"
-профессор:профессор N-кӏалэ ; ! ""
-щысыгъэ:щысыгъэ N-кӏалэ ; ! ""
-тхьэматэ:тхьэматэ N-кӏалэ ; ! ""
+щӏалэ:щӏалэ N-щӏалэ ; ! "мальчик"
+дэпкъ:дэпкъ N-дэпкъ ; ! "стена"
+еджапӏэ:еджапӏэ N-еджапӏэ ; ! "школа"
+профессор:профессор N-щӏалэ ; ! "профессор"
+щысыгъэ:щысыгъэ N-щӏалэ ; ! "???"
+тхьэмадэ:тхьэмадэ N-щӏалэ ; ! "тамада"
 
 LEXICON Adjectives 
 
-дах:дах A ; ! "красивый"
+дахэ:дахэ A ; ! "красивый"
 
 LEXICON Verbs 
 
@@ -216,9 +223,15 @@ LEXICON Verbs
 ! obj adv adv coop subj deriv root 
 ! -6  -5  -4  -3   -2   -1     0    +1
 
-тхы:тхы                 V-TV ; ! "писать"
-гущыӏэ:гущыӏэ           V-TV ; ! ""
-кӏо:кӏо                 V-IV ; ! "идти"
+! I am forcing you to talk to them again
+! у-а-ды-зо-гъэ-псэлъэ-ж
+! you (у) with them (а) together (ды) I (зо) am forcing (гъэ) to speak (псэлъэ) again (ж)
+! obj adv coop subj deriv root
+! -5  -4  -3   -2   -1     0    +1
+
+тхын:тхын                 V-TV ; ! "писать"
+гушыӏэн:гушыӏэн           V-TV ; ! "шутить"
+кӏуэн:кӏуэн               V-IV ; ! "идти"
 
 
 
