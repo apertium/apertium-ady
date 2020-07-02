@@ -72,8 +72,8 @@ $(LANG1).automorf.bin: $(LANG1).automorf.att.gz .deps/.d
 	zcat < $< > .deps/$(LANG1).automorf.att
 	lt-comp lr .deps/$(LANG1).automorf.att $@
 
-$(LANG1).autopgen.bin: $(BASENAME).post-$(LANG1).dix
-	lt-comp lr $< $@
+#$(LANG1).autopgen.bin: $(BASENAME).post-$(LANG1).dix
+#	lt-comp lr $< $@
 
 ###############################################################################
 ## Debugging transducers (for testvoc)
@@ -140,9 +140,10 @@ $(LANG1).prob: corpus/$(LANG1).tagged
 EXTRA_DIST=$(BASENAME).$(LANG1).lexc		\
 		$(BASENAME).$(LANG1).twol	\
 		$(BASENAME).$(LANG1).rlx	\
-		$(BASENAME).post-$(LANG1).dix	\
 		$(LANG1).prob			\
 		modes.xml
+
+#		$(BASENAME).post-$(LANG1).dix	
 
 ###############################################################################
 ## Installation stuff
@@ -172,7 +173,8 @@ install-data-local: install-modes
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).lexc $(DESTDIR)$(apertium_ady_srcdir)
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).twol $(DESTDIR)$(apertium_ady_srcdir)
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).rlx $(DESTDIR)$(apertium_ady_srcdir)
-	$(INSTALL_DATA) $(BASENAME).post-$(LANG1).dix $(DESTDIR)$(apertium_ady_srcdir)
+
+#	$(INSTALL_DATA) $(BASENAME).post-$(LANG1).dix $(DESTDIR)$(apertium_ady_srcdir)
 
 ###############################################################################
 ## Cleanup
