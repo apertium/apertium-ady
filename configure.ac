@@ -1,6 +1,6 @@
 AC_PREREQ(2.52)
 
-AC_INIT([Apertium Adyghe], [0.1.0], [ftyers@prompsit.com], [apertium-ady], [http://wiki.apertium.org/wiki/Apertium-ady])
+AC_INIT([Apertium Adyghe], [0.1.0], [ftyers@prompsit.com], [apertium-ady], [https://wiki.apertium.org/wiki/Apertium-ady])
 AM_INIT_AUTOMAKE
 
 AC_PROG_LN_S

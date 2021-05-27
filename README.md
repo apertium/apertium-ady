@@ -18,7 +18,7 @@ You will need the following software installed:
 * vislcg3 (>= 0.9.9.10297)
 * hfst (>= 3.8.2)
 
-If this does not make any sense, we recommend you look at: www.apertium.org.
+If this does not make any sense, we recommend you look at: apertium.org.
 
 Compiling
 -------------------------------------------------------------------------------
