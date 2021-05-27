@@ -74,9 +74,9 @@ Files and data
 For more information
 -------------------------------------------------------------------------------
 
-* http://wiki.apertium.org/wiki/Installation
-* http://wiki.apertium.org/wiki/apertium-ady
-* http://wiki.apertium.org/wiki/Using_an_lttoolbox_dictionary
+* https://wiki.apertium.org/wiki/Installation
+* https://wiki.apertium.org/wiki/apertium-ady
+* https://wiki.apertium.org/wiki/Using_an_lttoolbox_dictionary
 
 Help and support
 -------------------------------------------------------------------------------
@@ -84,6 +84,6 @@ Help and support
 If you need help using this language pair or data, you can contact:
 
 * Mailing list: apertium-stuff@lists.sourceforge.net
-* IRC: `#apertium` on irc.freenode.net (irc://irc.freenode.net/#apertium)
+* IRC: `#apertium` on irc.oftc.net (irc://irc.oftc.net/#apertium)
 
 See also the file [`AUTHORS`](AUTHORS), included in this distribution.
